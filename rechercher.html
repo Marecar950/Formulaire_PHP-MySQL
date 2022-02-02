@@ -1,0 +1,59 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>Rechercher</title>
+<meta charset="utf-8">
+</head>
+
+<style>
+h2 {
+   text-align: center;
+   }
+   input[type="text"]
+   {
+   padding : 10px;
+   }
+   input[type="submit"]
+   {
+   padding : 10px;
+   font-size : 15px;
+   }
+   input[type="reset"]
+   {
+   padding : 10px;
+   font-size : 15px;
+   }
+</style>
+
+<body>
+<h2>Rechercher un client</h2>
+
+<form method="POST" action="rechercher.php">
+
+<table border=0>
+
+<tr>
+<td>Nom</td>
+<td>
+<input type="text" name="recherche_nom" placeholder="Entrez le nom :"/>
+</td> </tr>
+
+<tr>
+<td>Prenom</td>
+<td>
+<input type="text" name="recherche_prenom" placeholder="Entrez le prénom :"/>
+</td> </tr>
+
+<tr>
+<td><input type="submit" value="Rechercher"/></td>
+<td>
+<input type="reset" value="Réinitialiser les champs"/>
+</td> </tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
+
