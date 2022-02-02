@@ -1,0 +1,60 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>Modifier</title>
+<meta charset="utf-8">
+</head>
+
+<style>
+h2 {
+   text-align: center;
+   }
+   input[type="text"], input[type="number"]
+   {
+   padding : 10px;
+   }
+   input[type="submit"]
+   {
+   padding : 10px;
+   font-size : 15px;
+   }
+   input[type="reset"]
+   {
+   padding : 10px;
+   font-size : 15px;
+   }
+</style>
+
+<body>
+<h2>Modifier un client</h2>
+
+<form method="POST" action="modifier.php">
+
+<table border=0>
+
+<tr>
+<td>Nom</td>
+<td>
+<input type="text" name="Nom" placeholder="Entrez le nom :"/>
+</td> </tr>
+
+<tr>
+<td>Prenom</td>
+<td>
+<input type="text" name="Prenom" placeholder="Entrez le prénom :"/>
+</td> </tr>
+
+<tr>
+<td>Tel</td>
+<td>
+<input type="number" name="modifier_phone" placeholder="Saisissez un nouveau numéro :"/>
+</td> </tr>
+
+<tr>
+<td><input type="submit" value="Valider"/></td>
+<td>
+<input type="reset" value="Réinitialiser les champs"/>
+</td> </tr>
+
+</body>
+</html>
