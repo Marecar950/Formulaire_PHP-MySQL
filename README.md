@@ -1,2 +1,2 @@
-# test_formulaire
-formulaire PHP/MySQL
+# Mini projet formulaire
+formulaire en PHP/MySQL
